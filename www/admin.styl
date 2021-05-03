@@ -1,0 +1,28 @@
+#content
+  body:not(.loaded) &
+    display none
+
+  font-size 1.8em
+
+#block-overlay
+  position absolute
+  top 0
+  left 0
+  width 100vw
+  height 100vh
+  background #6669
+  body:not(.blocked) &
+    display none
+
+ul#players
+  list-style-type none
+  padding-right 0
+  li
+    margin-bottom 1em
+  button
+    font-weight bolder
+  /*
+  .badge
+    font-size 50%
+    vertical-align super
+  */

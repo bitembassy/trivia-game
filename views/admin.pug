@@ -1,0 +1,16 @@
+extend layout
+
+append scripts
+  script(src='admin.js')
+append styles
+  link(rel='stylesheet', href='_/admin.css')
+
+block content
+  .container.mt-4
+    #block-overlay
+
+    h2 סבב
+    button#reset-round.btn.btn-lg.btn-primary.btn-warning איפוס סבב
+
+    h2.mt-5 שחקנים
+    ul#players.mt-4

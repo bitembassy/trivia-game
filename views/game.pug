@@ -1,0 +1,19 @@
+extend layout
+
+append scripts
+  script(src='game.js')
+append styles
+  link(rel='stylesheet', href='_/game.css')
+
+block content
+  .container-fluid.mt-5
+    //-.jumbotron.text-center
+      h1.display-3 טריוויית יום העלמות סטושי<br>שגרירות הביטקוין בתל אביב
+    h1.text-center טריוויית יום העלמות סטושי<br>שגרירות הביטקוין
+    .row.text-center.mt-5
+      #buzzers.col-md
+        h2 משתתפים בסבב
+        ul
+      #leaderboard.col-md
+        h2 שחקנים #[span.no-scores-title רשומים] #[span.has-scores-title מובילים]
+        ul
